@@ -54227,7 +54227,7 @@ var render = function() {
     "div",
     { staticClass: "body", style: { "--brand-color": "#fbb040" } },
     [
-      _c("top-bar"),
+      _c("top-bar", { attrs: { name: "Viral Jetani" } }),
       _vm._v(" "),
       _c("transition", { attrs: { name: "fade" } }, [_c("router-view")], 1)
     ],
