@@ -53924,6 +53924,8 @@ var render = function() {
         _vm.match && !_vm.loading
           ? [
               _c("div", { staticClass: "col-12 text-center" }, [
+                _c("strong", [_vm._v("Both occupation matches")]),
+                _vm._v(" "),
                 _c("h1", [_vm._v(_vm._s(_vm.match) + "%")])
               ])
             ]

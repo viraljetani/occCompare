@@ -29,7 +29,7 @@
         <div class="row">
             <template v-if="match && !loading">
             <div class="col-12 text-center">
-                <h1>{{ match }}%</h1>
+                <strong>Both occupation matches</strong> <h1>{{ match }}%</h1>
             </div>
             </template>
             <template v-else-if="!match && !loading">
